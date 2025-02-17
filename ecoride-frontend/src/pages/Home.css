@@ -1,0 +1,36 @@
+.homepage {
+    height: 85vh;
+}
+.home-research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+}
+.home-presentation {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.home-presentation h1 {
+    font-size: 40px;
+}
+.home-search {
+    height: 16vh;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+.home-search input {
+    height: 40px;
+    width: 340px;
+    margin: 0 20px;
+}
+.home-search button {
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+}

@@ -1,0 +1,226 @@
+.dashboard-page {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+.dashboard-main {
+    width: 80%;
+    border: 2px solid black;
+    overflow: hidden;
+}
+.dashboard-main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.dashboard-main-title h1 {
+    font-size: 40px;
+}
+.dashboard-main-title button {
+    height: 40px;
+    width: 180px;
+    margin-left: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 6px;
+}
+.user-infos {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    padding: 0 30px;
+    margin-top: 30px;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.user-infos h2 {
+    margin-right: 80px;
+}
+.user-infos p {
+    font-size: 20px;
+    margin: 0 30px;
+}
+.user-infos button {
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.user-role {
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    font-size: 20px;
+}
+.user-role p {
+    margin: 0 30px;
+}
+.user-role button {
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.user-role-change {
+    margin-left: 40px;
+}
+.user-role-change form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 30px;
+}
+.user-role-change label {
+    height: 40px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.user-role-change input {
+    margin: 0 6px;
+    cursor: pointer;
+}
+.user-role-change button {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.user-car-show {
+    margin-top: 20px;
+    padding: 0 30px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    border-bottom: 2px solid gray;
+}
+.user-car-show p {
+    margin: 0 18px;
+    font-size: 18px;
+}
+.user-car-show button {
+    border-radius: 10px;
+    height: 40px;
+    padding: 4px;
+    cursor: pointer;
+}
+.user-car-register {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 0 30px;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid gray;
+}
+.user-car-register h4 {
+    font-size: 20px;
+}
+.user-car-register form {
+    margin-left: 30px;
+}
+.user-car-register label {
+    margin: 10px 0;
+}
+.user-car-register input, select {
+    margin-right: 14px;
+    height: 22px;
+}
+.user-car-register textarea {
+    width: 200px;
+}
+.user-register-status-eco {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+}
+.user-register-status-eco input {
+    margin: 0 8px;
+    cursor: pointer;
+}
+.user-register-status-eco label {
+    display: flex;
+    align-items: center;
+}
+.user-car-register button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.user-covoiturages {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 10vh;
+    border-bottom: 2px solid gray;
+}
+.user-covoiturages li {
+    display: flex;
+    align-items: center;
+}
+.user-covoiturages p {
+    margin-left: 20px;
+}
+.user-covoiturages button {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.driver-covoiturage {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+.driver-covoiturage ul {
+    height: 100%;
+    width: 70%;
+    margin-left: 30px;
+}
+.driver-covoiturage li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.driver-covoiturage p {
+    margin-right: 40px;
+}
+.driver-covoiturage button {
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.covoiturage-creation {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0 30px;
+    font-size: 20px;
+    border-bottom: 2px solid gray;
+}
+.covoiturage-creation form {
+    margin-left: 20px;
+}
+.covoiturage-creation input, select {
+    height: 22px;
+    width: 180px;
+    margin: 0 14px;
+}
+.covoiturage-creation button {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7.5vh;
+    padding: 0 550px;
+    background: linear-gradient(to right,rgba(91, 255, 70, 0.596) 0%,rgb(1, 145, 8) 100%);
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.navbar ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+    margin: 0 20px;
+    font-size: 18px;
+}
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+.navbar button {
+    height: 34px;
+    border-radius: 10px;
+    padding: 0 6px;
+    cursor: pointer;
+}
+

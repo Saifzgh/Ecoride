@@ -1,0 +1,13 @@
+.footer {
+    height: 7.5vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right,rgba(91, 255, 70, 0.596) 0%,rgb(1, 145, 8) 100%);
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+    font-size: 20px;
+}
