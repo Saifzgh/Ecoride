@@ -18,10 +18,10 @@ Ouvrez un terminal et exécutez :
 
 ```sh
 # Cloner le projet
-git clone https://github.com/TON-UTILISATEUR/ecoride.git
+git clone https://github.com/Saifzgh/ecoride-projet
 
 # Aller dans le dossier
-cd ECORIDE
+cd ecoride
 
 
 ## 2️⃣ Configuration du Backend (PHP & MySQL)
