@@ -21,7 +21,7 @@ Ouvrez un terminal et exécutez :
 git clone https://github.com/Saifzgh/ecoride
 
 # Aller dans le dossier
-cd ecoride-projet
+cd ecoride
 
 
 ## 2️⃣ Configuration du Backend (PHP & MySQL)
