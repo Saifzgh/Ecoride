@@ -18,10 +18,10 @@ Ouvrez un terminal et exécutez :
 
 ```sh
 # Cloner le projet
-git clone https://github.com/Saifzgh/ecoride-projet
+git clone https://github.com/Saifzgh/ecoride
 
 # Aller dans le dossier
-cd ecoride
+cd ecoride-projet
 
 
 ## 2️⃣ Configuration du Backend (PHP & MySQL)
@@ -36,10 +36,9 @@ cd ecoride
 
 ### 📌 Installer composer (si ce n'est pas déjà fait !)
 
+Ici les dépendances sont déjà installer, mais si ce n'est pas le cas alors :
 
-
-Se placer dans le dossier "BACKEND" et exécuter :
-
+cd ecoride/backend
 composer install
 
 
@@ -57,9 +56,9 @@ $password = ""; (mot de passe de votre base sql, par défaut vide)
 
 ### 📌 Lancer le serveur PHP
 
-Démarrer le serveur PHP pour l'API avec votre terminal :
+Démarrer le serveur PHP pour l'API avec votre terminal ->
 
-
+cd ecoride/backend
 php -S localhost:8000 -t public
 
 
@@ -69,11 +68,8 @@ L'API est maintenant accessible à l'adresse : http://localhost:8000
 
 ### 📌 Installer les dépendances ( FRONT )
 
-Ici les dépendances sont déjà installer, mais si ce n'est pas le cas alors :
 
-Se placer dans le dossier "FRONTEND" et installer les packages avec la commande suivante
-
-
+cd ecoride/frontend
 npm install
 
 * vérifier si node.js est installé grâce à la commande "node -v" et si npm est installé
@@ -90,7 +86,10 @@ npm run dev
 
 L'application sera accessible à : http://localhost:5173. (Attention il peux varier selon votre port)
 
-##  4️⃣ Configuration MongoDB (Avis des Passagers)
+
+
+
+##  4️⃣ Configuration MongoDB (Avis des Passagers), pas encore terminer !
 
 1. Démarrer MongoDB (si ce n'est pas fait) :
 
@@ -110,7 +109,7 @@ L'API gérera les avis automatiquement.
 
 Vous avez déjà 4 utilisateurs inscrit dans la bdd si vous le souhaitez, vous pouvez vous connecté avec les infos suivantes:
 
-- ADMIN : mail = admin@example.com   /   mot de passe = password
+- ADMIN : mail = admin@example.com   /   mot de passe = adminpassword
 - EMPLOYE : mail = employe@example.com   /   mot de passe = password
 - CHAUFFEUR : mail = chauffeur@example.com   /   mot de passe = password
 - CHAUFFEUR-PASSAGER : mail = both@example.com   /   mot de passe = password
