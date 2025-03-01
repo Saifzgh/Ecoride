@@ -1,0 +1,58 @@
+
+
+services:
+  # 📌 Service MySQL (Base de données)
+  mysql:
+    image: mysql:8.0
+    container_name: ecoride-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ecoride
+      MYSQL_USER: ecoride_user
+      MYSQL_PASSWORD: secret
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+  
+  # 📌 Service PHP + Apache (Backend)
+  php-apache:
+    build: ./backend
+    container_name: ecoride-php
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - "8000:80"
+    volumes:
+      - ./backend:/var/www/html
+
+  # 📌 Service phpMyAdmin (Gestion BDD)
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: ecoride-phpmyadmin
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root
+
+  # 📌 Service React (Frontend)
+  frontend:
+    build: ./frontend
+    container_name: ecoride-react
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - php-apache
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  mysql_data:

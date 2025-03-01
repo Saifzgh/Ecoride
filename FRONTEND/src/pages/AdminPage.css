@@ -1,0 +1,83 @@
+.admin-section {
+    height: 85vh;
+    padding: 0 400px
+}
+.admin-page {
+    width: 100%;
+    height: 99.7%;
+    border: 2px solid gray;
+}
+.admin-page h1 {
+    text-align: center;
+    font-size: 46px;
+}
+.user-management {
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 0 40px;
+}
+.user-management h2 {
+    text-align: center;
+}
+.user-management ul{
+    list-style: none;
+}
+.user-management li {
+    margin:20px 0px;
+    font-size: 18px;
+}
+.user-management button {
+    margin: 0 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.employe-management {
+    border-bottom: 2px solid gray;
+    padding: 0 40px;    
+}
+.employe-management h2 {
+    text-align: center;
+}
+.employe-management ul {
+    list-style: none;
+}
+.employe-management li {
+    margin:20px 0px;
+    font-size: 18px;    
+}
+.employe-management button {
+    margin: 0 20px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;    
+}
+.stat-management {
+    border-bottom: 2px solid gray;
+    padding: 0 40px;    
+}
+.stat-management h2 {
+    text-align: center;
+}
+.stat-management p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.passenger-management {
+    border-bottom: 2px solid gray;
+    padding: 0 40px;
+    text-align: center;    
+}
+.passenger-management p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.route-management {
+    padding: 0 40px;
+    text-align: center;    
+}
+.route-management p {
+    margin: 10px 0;
+}

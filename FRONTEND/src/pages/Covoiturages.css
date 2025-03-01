@@ -1,0 +1,88 @@
+.covoiturages-section {
+    height: 85vh;
+    padding: 0 400px;
+}
+.covoiturages-main {
+    height: 84.8vh;
+    border: 2px solid rgba(32, 141, 41, 0.267);
+}
+.covoiturages-search {
+    text-align: center;
+}
+.covoiturages-search h3 {
+    font-size: 32px;
+    margin: 20px 0;
+}
+.covoiturages-search input {
+    height: 34px;
+    width: 300px;
+    margin: 0 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.covoiturages-search button {
+    height: 34px;
+    width: 140px;
+    cursor: pointer;
+}
+#user-guide {
+    margin-top: 20px;
+    font-size: 22px;
+}
+#no-match-p {
+    margin-top: 30px;
+    font-size: 26px;
+    color: rgba(255, 0, 0, 0.719);
+}
+.covoiturages-display {
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trajet {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    height: 12vh;
+    width: 900px;
+    padding: 0 20px;
+}
+.trajet-photo {
+    display: flex;
+}
+.trajet-photo img {
+    border-radius: 10px;
+}
+.trajet-driver-info p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.trajet-description {
+    width: 300px;
+    margin: 0 50px;
+}
+.trajet-description p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+.trajet-description button {
+    width: 100px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.trajet-price p {
+    margin: 24px 0;
+    font-size: 18px;
+}
+.trajet-price button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    cursor: pointer;    
+}
